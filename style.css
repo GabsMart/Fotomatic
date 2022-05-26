@@ -1,0 +1,180 @@
+/* Fontes */
+/* Roboto Regular */ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Roboto Mono */ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* Rubik */ @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* Damion */ @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+
+/* Geral */
+body {
+    margin: 0px;
+    padding: 0;    
+}
+
+/* Navegação do site */
+header {
+    height: 85px;
+    width: 100%;
+    padding: 0px 30px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    
+    color: #4A4A4A;
+    border-bottom: 1px solid #4A4A4A;
+    background-color: #fff;
+    position: fixed;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Roboto Mono';
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Roboto';
+}
+
+.gap {
+    margin-left: 30px;
+}
+
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #4A4A4A;
+}
+
+nav {
+    display: flex;
+}
+
+.img-nav {
+    width: 25px;
+    margin-left: 15px;
+    align-self: center;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+/* Banner, parte principal do site */
+
+.banner {
+    background-image: url('imagens/banner-principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cadastro {
+    background-color: #9DC20A;
+    border: 1px solid #979797;
+    border-radius: 4px;
+
+    padding: 32px 80px 56px 80px;
+    Margin-top: 170px;
+    margin-left: 100px;
+    margin-bottom: 170px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cursiva {
+    font-family: 'Damion';
+    color: #fff;
+    font-size: 36px;
+}
+
+.cadastro h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Rubik';
+    line-height: 1.4;
+    margin-bottom: 12px;
+    }
+
+.cadastro .mande-email {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto';
+    line-height: 1.4;
+    margin-bottom: 26px;
+}
+
+.cadastro button {
+    width: 408px;
+    height: 64px;
+    background-color: #4A4A4A;
+    border-radius: 4px;
+
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+/* Novidades */
+
+.novidades {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 64px;
+    padding-bottom: 46px;
+    background-color: #f3f3f3;
+}
+
+.container {
+    background-color: #fff;
+    height: 635px;
+    padding: 32px;
+    text-align: center;
+}
+
+.container img{
+    height: 65%;
+    max-width: 100%;
+}
+
+.container h1 {
+    margin-top: 40px;
+    color: #4A4A4A;
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.container p {
+    color: #4A4A4A;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Para dispositivos Mobile */
+@media only screen and (max-width: 480px) {
+
+}
