@@ -1,12 +1,18 @@
 /* Fontes */
-/* Roboto Regular */ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Roboto */ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 /* Roboto Mono */ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 /* Rubik */ @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 /* Damion */ @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 
+/*  Roboto Light: 300
+    Roboto Regular: 400
+    Roboto Bold: 700
+*/
+
+
 
 /* Geral */
-body {
+* {
     margin: 0px;
     padding: 0;    
 }
@@ -161,17 +167,79 @@ nav {
     line-height: 1.2;
 }
 
+/* Filtros */
 
+.filtros {
+    background-color: #4A4A4A;
+    padding: 64px 0px;
+    color: #fff;
+    text-align: center;
+}
 
+.filtros h1 {
+    color: #fff;
+    opacity: 100%;
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
 
+.filtros p {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 80px;
+}
 
+.container-imagens {
+    display: flex;
+    max-width: 100%;
+    margin: 0px 1%;
+}
 
+.container-imagens img {
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+}
 
+/* Citação */
 
+.citação {
+    padding: 80px 0px;
+    text-align: center;
+}
 
+.citação h1{
+    color: #4A4A4A;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 30px;
+}
 
+.citação img {
+    display: inline-block;
+}
 
+/* Footer */
 
+footer {
+    background-color: #9b9b9b;
+    height: 62px;
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p, footer a {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
 
 
 /* Para dispositivos Mobile */
