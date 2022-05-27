@@ -20,7 +20,6 @@
 /* Navegação do site */
 header {
     height: 85px;
-    width: 100%;
     padding: 0px 30px;
     margin: 0;
 
@@ -30,7 +29,6 @@ header {
     color: #4A4A4A;
     border-bottom: 1px solid #4A4A4A;
     background-color: #fff;
-    position: fixed;
 }
 
 .logo {
@@ -56,6 +54,12 @@ a, li {
     text-decoration: none;
     list-style-type: none;
     color: #4A4A4A;
+}
+
+.gap:hover {
+    color: #1d1d1d;
+    border-bottom: 1px solid #1d1d1d;
+    cursor: pointer;
 }
 
 nav {
@@ -127,11 +131,17 @@ nav {
     font-weight: 500;
 }
 
+.cadastro button:hover {
+    background-color: #1d1d1d;
+    cursor: pointer;
+}
+
 /* Novidades */
 
 .novidades {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 38px;
     padding-top: 64px;
     padding-bottom: 46px;
     background-color: #f3f3f3;
@@ -139,14 +149,14 @@ nav {
 
 .container {
     background-color: #fff;
-    height: 635px;
+    height: 600px;
     padding: 32px;
     text-align: center;
 }
 
 .container img{
-    height: 65%;
-    max-width: 100%;
+    max-height: 65%;
+    max-width: 90%;
 }
 
 .container h1 {
