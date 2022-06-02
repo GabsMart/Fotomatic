@@ -27,7 +27,6 @@ header {
     justify-content: space-between;
     
     color: #4A4A4A;
-    border-bottom: 1px solid #4A4A4A;
     background-color: #fff;
 }
 
@@ -72,7 +71,7 @@ nav {
     align-self: center;
 }
 
-.nav-mobile {
+.nav-mobile, .botão {
     display: none;
 }
 
@@ -253,6 +252,109 @@ footer p, footer a {
 
 
 /* Para dispositivos Mobile */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
+
+    header {
+        height: 40px;
+        padding: 3px 8px;
+        align-items: center;
+        justify-content: center
+    }
+
+    .nav-mobile {
+        gap: 80px;
+    }
+
+    .botão{
+        display: block;
+        width: 70px;
+        font-size: 16px;
+    }
+
+    li, .logo, .cadastro button, .mande-email {
+        display: none;
+    }
+
+    .nav-mobile {
+        height: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .botão {
+        background-color: #9DC20A;
+        border: transparent;
+        border-radius: 4px;
+        color: #fff;
+    }
+
+    .cadastro {
+        background-color: transparent;
+        border: transparent;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .novidades {
+        flex-direction: column;
+        gap: 0px;
+        background-color: #fff;
+        margin-top: 16px;
+        padding: 0px;
+    }
+
+    .container {
+        padding: 0px;
+        height: 500px;
+    }
+
+    .container h1 {
+        font-size: 18px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        line-height: 1.3;
+        margin-top: 10px;
+    }
+
+    .container p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .filtros {
+        padding: 15px;
+    }
+
+    .filtros h1 {
+        font-size: 24px;
+    }
+
+    .filtros p {
+        margin-bottom: 10px;
+    }
+
+    #mobile {
+        display: none;
+    }
+    
+    .citação {
+        padding: 30px;
+
+    }
+    .citação h1 {
+        font-size: 24px;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+
+    footer {
+        gap: 10px;
+    }
+
+    footer p, footer a {
+        font-size: 10px;
+    }
+
 
 }
